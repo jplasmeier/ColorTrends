@@ -1,0 +1,3 @@
+#Color Trends
+
+This was my team's hack at HackNY in Spring 2016. The goal was to run a database of images of art through a machine learning API in order to extract the primary colors of the image at scale. We used Clarifai's Color API to classify something like 30000 records by color. The images came from the Tate Collection which we imported into a local MongoDB instance. A Python script ran the records through the API, updating the database. The plan was to do colorful visualizations of the trends in color use over time or by movement or other interesting features using D3.js. However, we fell asleep and did not get any further. 
